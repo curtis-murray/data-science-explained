@@ -4,7 +4,7 @@ bio:                'Data Science Explained'
 description:        "Test"
 locale:             en_US
 baseurl: "/data-science-explained" # the subpath of your site, e.g. /blog
-url: "http://curtis-murray.github.io" # the base hostname & protocol for your site
+url: 'http://curtis-murray.github.io' # the base hostname & protocol for your site
 font_awesome: 'e9563652a9.js'
 
 # Social
@@ -56,7 +56,7 @@ gems:
   - jekyll-mentions
   - jekyll-sitemap
   - jekyll-feed
-  - jekyll-gists
+  - jekyll-gist
   - jekyll-paginate
 
 paginate: 6
