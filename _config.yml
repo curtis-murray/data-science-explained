@@ -4,7 +4,7 @@ bio:                'Data Science Explained'
 description:        "Test"
 locale:             en_US
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https://curtis-murray.github.io/data-science-explained" # the base hostname & protocol for your site
+url: "http://curtis-murray.github.io/data-science-explained" # the base hostname & protocol for your site
 font_awesome: 'e9563652a9.js'
 
 # Social
