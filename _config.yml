@@ -1,0 +1,69 @@
+# Site
+title:              Curtis Murray
+bio:                'Data Science Explained'
+description:        "Test"
+locale:             en_US
+baseurl: "/data-science-explained" # the subpath of your site, e.g. /blog
+url: "curtismurray.tech" # the base hostname & protocol for your site
+font_awesome: 'e9563652a9.js'
+
+# Social
+analytics-id:       "G-FYXRZ09NGH"
+twitter:            "curtis_w_murray"
+instagram:          "curtis_murray_"
+github:             "curtis-murray"
+facebook:           "default"
+youtube:            "UClLZ3QYloyXINc9LkcKtFLQ"
+# personal
+location:           Adelaide/Melbourne, Australia
+phone:              0413453827
+email:              curtis@curtismurray.tech # change this to your email to receive free emails for your contact submissions via Slapform.com
+
+# Other
+background_image:   /data-science-explained/images/bg.jpg
+# Tip: The color palette and other styles can be configured in /_sass/lib/_vars.scss
+slapform_thankyou_page: /thank-you
+
+defaults:
+- scope:
+    path: ''
+    type: posts
+  values:
+    permalink: "/blog/:title/"
+    layout: post
+    author:
+
+# Jekyll
+permalink:          /blog/:title/
+markdown:           kramdown
+highlighter:        rouge
+kramdown:
+  # use Github Flavored Markdown
+  input: GFM
+  auto_ids: true
+  syntax_highlighter: rouge
+  # do not replace newlines by <br>s
+  hard_wrap: false
+  default_lang: html
+  css_class   : 'syntax'
+mathjax:            true
+sass:
+  sass_dir:         _sass
+  style:            compressed
+
+# Gems
+gems:
+  - jekyll-mentions
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-gists
+  - jekyll-paginate
+
+paginate: 6
+paginate_path: "/blog/page:num/"
+
+jekyll-mentions:
+    base_url: https://github.com
+
+# Exclude list
+exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor, CNAME, LICENSE, Rakefile, old]
