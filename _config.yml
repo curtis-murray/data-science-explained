@@ -4,7 +4,7 @@ bio:                'Data Science Explained'
 description:        "Test"
 locale:             en_US
 baseurl: "/data-science-explained" # the subpath of your site, e.g. /blog
-url: 'http://curtis-murray.github.io' # the base hostname & protocol for your site
+url: 'https://curtis-murray.github.io' # the base hostname & protocol for your site
 font_awesome: 'e9563652a9.js'
 
 # Social
@@ -16,7 +16,7 @@ facebook:           "default"
 youtube:            "UClLZ3QYloyXINc9LkcKtFLQ"
 # personal
 location:           Adelaide/Melbourne, Australia
-phone:              0413453827
+phone:              0413453827s
 email:              curtis@curtismurray.tech # change this to your email to receive free emails for your contact submissions via Slapform.com
 
 # Other
